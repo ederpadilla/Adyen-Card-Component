@@ -39,12 +39,14 @@ class ViewController: UIViewController, PaymentComponentDelegate {
     }
 
     func didSubmit(_ data: PaymentComponentData, from component: PaymentComponent) {
+        cardComponent.stopLoading(withSuccess: true)
         print("🚀🚀🚀🚀 data \(data)")
         
     }
     
     func didFail(with error: Error, from component: PaymentComponent) {
         print("🚀🚀🚀 error \(error.localizedDescription)")
+        cardComponent.stopLoading(withSuccess: false)
     }
     
     
