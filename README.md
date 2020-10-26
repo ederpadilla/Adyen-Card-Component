@@ -4,4 +4,4 @@ This is a sample, that show how ti use Adyen card component in ios, how to manag
 
 
 <img src="sc/sc_1.png" width="260">&emsp;<img src="sc/sc_2.png" >
-![Adyen card component Demo](sc/test.gif)
+![Adyen SAmple](https://media.giphy.com/media/NuiTRKjsRbNXFMzSlJ/giphy.gif)
