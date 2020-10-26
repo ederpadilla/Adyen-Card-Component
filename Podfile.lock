@@ -1,0 +1,29 @@
+PODS:
+  - Adyen (3.5.0):
+    - Adyen/Card (= 3.5.0)
+    - Adyen/Core (= 3.5.0)
+    - Adyen/DropIn (= 3.5.0)
+  - Adyen/Card (3.5.0):
+    - Adyen/Core
+    - Adyen3DS2 (>= 2.1.0-rc.5)
+  - Adyen/Core (3.5.0)
+  - Adyen/DropIn (3.5.0):
+    - Adyen/Card
+    - Adyen/Core
+  - Adyen3DS2 (2.1.0-rc.5)
+
+DEPENDENCIES:
+  - Adyen
+
+SPEC REPOS:
+  trunk:
+    - Adyen
+    - Adyen3DS2
+
+SPEC CHECKSUMS:
+  Adyen: b153a4113e8953097c982b2aafc65846eb1519ec
+  Adyen3DS2: 7fae32b63e108bf24375c791652862c458b05c5d
+
+PODFILE CHECKSUM: 0a652912c5e30b8803df3e90e48265fbc50c893b
+
+COCOAPODS: 1.9.1

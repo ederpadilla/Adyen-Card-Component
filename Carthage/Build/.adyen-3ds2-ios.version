@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.1.0-rc.5",
+  "iOS" : [
+    {
+      "name" : "Adyen3DS2",
+      "hash" : "9c1e1c25c815695c8b7697c66346ddac5d99488ab1d6c4d799966d4d3fb350f5"
+    }
+  ]
+}
